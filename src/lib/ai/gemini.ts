@@ -25,7 +25,8 @@ import {
   familyPlanGeminiSchema,
 } from "@/lib/ai/schemas";
 
-export const GEMINI_MODEL = "gemini-2.5-flash";
+export const GEMINI_MODEL =
+  process.env.GEMINI_MODEL?.trim() || "gemini-3.1-flash-lite";
 export const GEMINI_TIMEOUT_MS = 15_000;
 
 export class GeminiConfigError extends Error {

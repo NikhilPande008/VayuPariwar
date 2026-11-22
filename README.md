@@ -68,7 +68,7 @@ VayuPariwar uses a **Hybrid Deterministic + GenAI Architecture** — zero LLM ha
 
 ## Live Deployment & Demo
 
-- **Live Deployed URL:** *Pending final Vercel deployment*
+- **Live Deployed URL:** https://vayupariwar-65216244490.asia-south1.run.app (Google Cloud Run — `asia-south1`)
 - **Demo Video Link:** *Pending final walkthrough recording*
 
 ---
